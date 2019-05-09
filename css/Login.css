@@ -1,0 +1,61 @@
+.Login{
+	/*display: flex;*/
+	width: 750px;
+	height: 100%;
+	background: #85d2c5;
+}
+.Login .text{
+	padding-top: 230px;
+}
+.Login .text h1{
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+/*input*/
+.input{
+	background: #85D2C5;
+	padding-top: 50px;
+	text-align: center;
+}
+.input1 input[type="image"]{
+	position: relative;
+	left: 50px;
+	top: 8px;
+}
+.input1 #text1{
+	margin-bottom: 20px;
+	font-size: 24px;
+	background: #85D2C5;
+	width: 300px;
+	height: 44px;
+	padding-left: 64px;
+	border: none;
+	border-bottom: 1px solid #77bdb1;
+}
+.input1 #text1::-webkit-input-placeholder{
+	font-size: 20px;
+	margin-left: 20px;
+	color: #fff;
+}
+
+.denglu{
+	
+	text-align: center;
+}
+.denglu button a{
+	background: #705d76;
+	font-size: 30px;
+	color: #fff;
+	padding: 20px 100px;
+	display: block;
+}
+.forgot{
+	margin-top: 20px;
+	text-align: center;
+}
+.forgot a{
+	font-size: 24px;
+	color: #fff;
+}

@@ -1,0 +1,29 @@
+.weixin img{
+	width: 410px;
+	height: 500px;
+	
+}
+.weixin{
+	width: 750px;
+	text-align: center;
+}
+.weixin h1{
+	font-size: 120px;
+}
+button{
+	background: #fff;
+}
+button a{
+	position: relative;
+	left: -266px;
+	top: 30px;
+	background: red;
+	width: 124px;
+	line-height: 56px;
+	border: 1px solid red;
+	display: inline-block;
+	/*text-align: center;*/
+	border-radius: 20px;
+	font-size: 26px;
+	color: #fff;
+}

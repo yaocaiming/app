@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>大康村团购APP</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" type="text/css" href="css/classify.css"/>
+	<script src="js/wow.min.js"></script>
+	<meta name="viewport" content="width=750,target-densitydpi=device-dpi,maximum-scale=1.0, user-scalable=no">
+	<script type="text/javascript">
+    	function setWidth(e){
+    		if(/Andriod/i.test(navigator.userAgent))
+    		{
+    			var f,d=window.innerWidth;
+    			(d!=e)&&(f=d/e),document.addEventListener("DOMContentLoaded",function(){
+	    				var a=document.getElementsByTagName("body")[0];
+		    			a.style.webkitTransformOrigin="left top";
+		    			a.style.webkitTransform="scale("+f+")"},!1)
+    				}
+    		}
+    		setWidth(750);
+    </script>
+</head>
+<body>
+	<div class="classify">
+		<div class="dabox">
+		<!--头部-->
+		<div class="header wow bounceInDown">
+			<div class="back">
+				<a href="index.html">Back</a>
+			</div>
+			<div class="centre">
+				<p>分类</p>
+			</div>
+			<div class="c_list">
+				<select name="">
+					<option value="">大康村</option>
+					<option value="">北和镇</option>
+					<option value="">英利镇</option>
+					<option value="">乌石镇</option>
+				</select>
+				<div class="bg_select"></div>
+			</div>
+		</div>
+		
+		<!--banner-->
+		<div class="banner wow bounceInLeft">
+			<a href="#cate">
+				<img src="images/c-banner_03.jpg" alt="" />
+				<p>美食</p>
+			</a>
+			<a href="#movie">
+				<img src="images/c-banner_06.jpg" alt="" />
+				<p>电影</p>
+			</a>
+			<a href="#sports">
+				<img src="images/c-banner_08.jpg" alt="" />
+				<p>运动</p>
+			</a>
+			<a href="#sports">
+				<img src="images/c-banner_10.jpg" alt="" />
+				<p>唱歌</p>
+			</a>
+		</div>
+		
+		<!--美食-->
+		<div class="cate wow lightSpeedIn" id="cate">
+			<div class="c_left">
+				<span>美食</span>
+			</div>
+			<div class="c_right">
+				<a href="">
+					<span>更多</span>
+				</a>
+			</div>
+		</div>
+		
+		<!--img-->
+		<div class="Img wow lightSpeedOut">
+			<img src="images/Img_03.jpg" alt="" />
+			<img src="images/Img_05.jpg" alt="" />
+			<img src="images/Img_07.jpg" alt="" />
+			<img src="images/Img_09.jpg" alt="" />
+		</div>
+		
+		<!--运动类-->
+		<div class="cate wow lightSpeedIn" id="sports">
+			<div class="c_left sports">
+				<span>运动类</span>
+			</div>
+			<div class="c_right">
+				<a href="">
+					<span>更多</span>
+				</a>
+			</div>
+		</div>
+		
+		<!--img-->
+		<div class="Img wow rotateIn">
+			<img src="images/Img_04.jpg" alt="" />
+			<img src="images/Img_08.jpg" alt="" />
+			<img src="images/Img_11.jpg" alt="" />
+			<img src="images/Img_13.jpg" alt="" />
+		</div>
+			
+		<!--电影类-->
+		<div class="cate wow lightSpeedIn" id="movie">
+			<div class="c_left movie">
+				<span>电影类</span>
+			</div>
+			<div class="c_right">
+				<a href="">
+					<span>更多</span>
+				</a>
+			</div>
+		</div>
+		
+		<!--img-->
+		<div class="Img wow zoomInDown">
+			<img src="images/Img_19.jpg" alt="" />
+			<img src="images/Img_21.jpg" alt="" />
+			<img src="images/Img_19.jpg" alt="" />
+			<img src="images/Img_21.jpg" alt="" />
+		</div>
+		
+		<!--footer-->
+		<div class="footer wow slideInUp">
+			<ul>
+				<li>
+					<a href="index.html">
+						<img src="images/icon_03.jpg"/>
+						<span>首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="classify.html">
+						<img src="images/icon_05.jpg"/>
+						<span>分类</span>
+					</a>
+				</li>
+				<li>
+					<a href="find.html">
+						<img src="images/icon_07.jpg"/>
+						<span>发现</span>
+					</a>
+				</li>
+				<li>
+					<a href="mine.html">
+						<img src="images/icon_09.jpg"/>
+						<span>我的</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	new WOW().init();
+</script>

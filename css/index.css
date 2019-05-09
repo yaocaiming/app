@@ -1,0 +1,158 @@
+.dbox{
+	width: 750px;
+	/*border: 1px solid red;*/
+}
+/*head样式*/
+.head{
+	display: flex;
+	padding: 18px 22px 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+.head input[type="text"]{
+	width: 246px;
+	height: 50px;
+	border-radius: 30px;
+	border: 2px solid red;
+	font-size: 24px;
+	padding-left: 20px;
+}
+.head input::-webkit-input-placeholder{
+	font-size: 24px;
+	margin-left: 20px;
+}
+.head input[type="image"]{
+	position: relative;
+	left: -56px;
+	top: 9px;
+}
+.head .head-list{
+	position: relative;
+}
+.head .head-list select{
+	width: 160px;
+	height: 56px;
+	border: 2px solid red;
+	font-size: 26px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.head .bg_select{
+	top: 22px;
+	left: 124px;
+	position: absolute;
+	width: 32px;
+	height: 16px;
+	background: url('../images/sanjiaoxing_03.jpg');
+}
+
+/*.group*/
+.group{
+	padding:20px 22px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;/*弹性盒子居中对齐*/
+}
+.group .g_left{
+	padding-left: 56px;
+	background: url('../images/tuangou_03.jpg') no-repeat;
+}
+.group .g_left span{
+	font-size: 30px;
+	line-height: 54px;
+}
+.group .g_right{
+	padding-right: 26px;
+}
+.group .g_right a{
+	display: block;
+	width: 82px;
+	line-height: 24px;
+	background: url('../images/more_03.jpg') no-repeat 56px 0px;
+}
+.group .g_right span{
+	font-size: 24px;
+	color: #000;
+}
+
+/*material*/
+.material{
+	padding: 0px 54px;
+}
+.material div{
+	padding-left: 16px;
+}
+.material div a{
+	display: block;
+	width: 585px;
+	display: flex;
+	justify-content: space-between;
+}
+.material .m_top{
+	padding: ;
+	margin-bottom: 24px;
+}
+
+/*like*/
+.like .like_above .a_top{
+	background: url('../images/love_03.jpg') no-repeat;
+}
+.like .like_below{
+	padding: 16px 22px 0;
+}
+.like .like_below1{
+	margin-bottom: 24px;
+}
+.like .like_below1 a{
+	float: right;
+	display: flex;
+	justify-content: space-between;
+}
+.like .like_below1 .lb_side{
+	padding-top: 8px;
+	padding-right: 110px;
+}
+.like .like_below1 .lb_side span{
+	font-size: 22px;
+	color: #777;
+	line-height: 40px;
+}
+.like .like_below1 .lb_side h2{
+	font-size: 30px;
+	color: #000;
+	line-height: 52px;
+}
+.like .like_below1 .lb_side p{
+	font-size: 32px;
+	color: red;
+	line-height: 60px;
+}
+.like .like_below1 .lb_dexter{
+	padding-top: 26px;
+}
+.like .like_below1 .lb_dexter p{
+	font-size: 22px;
+	color: #777;
+	margin-bottom: 16px;
+}
+
+/*footer*/
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 750px;
+}
+.footer ul{
+	background: #fff;
+	
+	display: flex;
+	justify-content: space-around;
+}
+.footer ul li{
+	text-align: center;
+}
+.footer ul li span{
+	font-size: 22px;
+	color: #000;
+	display: block;
+}

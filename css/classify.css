@@ -1,0 +1,102 @@
+.classify{
+	width: 750px;
+	/*border: 1px solid red;*/
+	/*padding: 0px 22px;*/
+}
+/*header样式*/
+.header{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.header .back a{
+	width: 124px;
+	line-height: 56px;
+	border: 1px solid red;
+	display: inline-block;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 26px;
+	color: #000;
+}
+.header .centre p{
+	font-size: 26px;
+	line-height: 56px;
+}
+.header .c_list{
+	position: relative;
+}
+.header .c_list select{
+	width: 160px;
+	height: 56px;
+	border: 2px solid red;
+	font-size: 26px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.header .bg_select{
+	top: 22px;
+	left: 124px;
+	position: absolute;
+	width: 32px;
+	height: 16px;
+	background: url('../images/sanjiaoxing_03.jpg');
+}
+
+/*banner*/
+.banner{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 52px;
+}
+.banner a{
+	text-align: center;
+	color: #000;
+	font-size: 26px;
+}
+
+/*cate*/
+.cate{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;/*弹性盒子居中对齐*/
+	margin-bottom: 40px;
+}
+.cate .c_left{
+	padding-left: 56px;
+	background: url('../images/cate_03.jpg') no-repeat;
+	
+}
+.cate .c_left span{
+	font-size: 30px;
+	line-height: 46px;
+}
+.cate .c_right a{
+	display: block;
+	width: 82px;
+	line-height: 24px;
+	background: url('../images/more_03.jpg') no-repeat 56px 0px;
+}
+.cate .c_right span{
+	/*line-height: 46px;*/
+	font-size: 24px;
+	color: #000;
+}
+
+/*Img样式*/
+.Img{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 52px;
+}
+
+/*运动样式*/
+.cate .c_left{
+	background: url('../images/yundong_03.jpg') no-repeat;
+}
+
+/*movie样式*/
+.cate .c_left{
+	background: url('../images/Img_16.jpg') no-repeat;
+}

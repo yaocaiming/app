@@ -1,0 +1,111 @@
+.find{
+	width: 750px;
+	/*border: 1px solid red;*/
+	/*padding: 0px 22px;*/
+}
+
+/*kind*/
+.kind{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.kind .input input[type="text"]{
+	width: 246px;
+	height: 50px;
+	border-radius: 30px;
+	border: 2px solid red;
+	font-size: 24px;
+	padding-left: 20px;
+}
+.kind .input input::-webkit-input-placeholder{
+	font-size: 24px;
+	margin-left: 20px;
+}
+.kind .input input[type="image"]{
+	position: relative;
+	top: 8px;
+	right: 60px;
+}
+.kind p{
+	font-size: 26px;
+	line-height: 58px;
+	margin-top: 28px;
+}
+.kind ul{
+	padding: 0px 160px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+.kind ul li{
+	padding: 16px 26px;
+	background: #dcdcdc;
+}
+.kind ul li a{
+	font-size: 20px;
+	color: #898989;
+}
+.kind ul li:hover{
+	background: #777777;
+}
+.kind ul li:hover a{
+	color: #fff;
+}
+
+/*great样式*/
+.great{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;/*弹性盒子居中对齐*/
+	margin-bottom: 40px;
+}
+.great .f_left{
+	padding-left: 56px;
+	background: url('../images/great_03.jpg') no-repeat;
+	
+}
+.great .f_left span{
+	font-size: 30px;
+	line-height: 46px;
+}
+.great .f_right a{
+	display: block;
+	width: 82px;
+	line-height: 24px;
+	background: url('../images/more_03.jpg') no-repeat 56px 0px;
+}
+.great .f_right span{
+	/*line-height: 46px;*/
+	font-size: 24px;
+	color: #000;
+}
+
+/*g_Img样式*/
+.g_Img{
+	display: flex;
+	margin-bottom: 40px;
+}
+.g_Img .g_Img-right{
+	margin-left: 36px;
+}
+.g_Img .g_Img-right img{
+	margin-left: 14px;
+}
+
+/*groom样式*/
+.great .groom{
+	padding-left: 56px;
+	background: url('../images/groom_03.jpg') no-repeat;
+	
+}
+
+/*groom_img样式*/
+.groom_img{
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.groom_img img{
+	width: 200px;
+	height: 200px;
+}

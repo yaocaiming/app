@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>大康村团购APP 我的</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/mine.css" />
+	<script type="text/javascript" src="js/wow.min.js">
+	</script>
+	<meta name="viewport" content="width=750,target-densitydpi=device-dpi,maximum-scale=1.0, user-scalable=no">
+	<script type="text/javascript">
+    	function setWidth(e){
+    		if(/Andriod/i.test(navigator.userAgent))
+    		{
+    			var f,d=window.innerWidth;
+    			(d!=e)&&(f=d/e),document.addEventListener("DOMContentLoaded",function(){
+	    				var a=document.getElementsByTagName("body")[0];
+		    			a.style.webkitTransformOrigin="left top";
+		    			a.style.webkitTransform="scale("+f+")"},!1)
+    				}
+    		}
+    		setWidth(750);
+    </script>
+</head>
+<body>
+	<div class="mine">
+		<div class="dabox">
+		<!--头部-->
+		<div class="header wow bounceInDown">
+			<div class="back">
+				<a href="index.html">Back</a>
+			</div>
+			<div class="centre">
+				<p>分类</p>
+			</div>
+			<div class="c_list">
+				<select name="">
+					<option value="">大康村</option>
+					<option value="">北和镇</option>
+					<option value="">英利镇</option>
+					<option value="">乌石镇</option>
+				</select>
+				<div class="bg_select"></div>
+			</div>
+		</div>
+		
+		<!--Login-->
+		<div class="Login wow zoomIn">
+			<div class="Login_left">
+				<img src="images/Login_03.jpg" alt="" />
+				
+			</div>
+			<div class="Login_center">
+				<a href="Login.html">
+					<p>点击登录</p>
+					<span>常居住地未设置</span>
+				</a>
+				
+			</div>
+			<div class="Login_right">
+				<span>></span>
+			</div>
+		</div>
+		
+		<!--critique-->
+		<div class="critique wow bounce">
+			<div class="dianping">
+				<img src="images/dianping_03.jpg" alt="" />
+				<p>我的点评</p>
+			</div>
+			<div class="shoucang">
+				<img src="images/shoucang.jpg" alt="" />
+				<p>我的收藏</p>
+			</div>
+			<div class="youhui">
+				<img src="images/youhui.jpg" alt="" />
+				<p>我的优惠券</p>
+			</div>
+		</div>
+		
+		<!--fit-->
+		<div class="fit wow fadeInDownBig">
+			<ul>
+				<li>
+					<div class="list-img">
+						<a>我的钱包</a>
+					</div>
+					<div class="text">
+						<a>更多</a>
+					</div>
+				</li>
+				<li>
+					<div class="list-img list-img1">
+						<a>待点评</a>
+					</div>
+					<div class="text">
+						<a>更多</a>
+					</div>
+				</li>
+				<li>
+					<div class="list-img list-img2">
+						<a>找好友</a>
+					</div>
+					<div class="text">
+						<a>更多</a>
+					</div>
+				</li>
+				<li>
+					<div class="list-img list-img3">
+						<a>我的足迹</a>
+					</div>
+					<div class="text">
+						<a>更多</a>
+					</div>
+				</li>
+			</ul>
+			<ul class="Ul1 wow zoomOutDown">
+				<li>
+					<div class="list-img list-img4">
+						<a>设置</a>
+					</div>
+					<div class="text">
+						<a>更多</a>
+					</div>
+				</li>
+				<li>
+					<div class="list-img list-img5">
+						<a>联系</a>
+					</div>
+					<div class="text">
+						<a>更多</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<!--button-->
+		<div class="button wow fadeInLeft">
+			<button>
+				<a href="Login.html">退出</a>
+			</button>
+			<button>
+				<a href="Login.html">注销</a>
+			</button>
+		</div>
+		
+		<!--footer-->
+		
+		<div class="footer wow slideInUp">
+			<ul>
+				<li>
+					<a href="index.html">
+						<img src="images/icon_03.jpg"/>
+						<span>首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="classify.html">
+						<img src="images/icon_05.jpg"/>
+						<span>分类</span>
+					</a>
+				</li>
+				<li>
+					<a href="find.html">
+						<img src="images/icon_07.jpg"/>
+						<span>发现</span>
+					</a>
+				</li>
+				<li>
+					<a href="mine.html">
+						<img src="images/icon_09.jpg"/>
+						<span>我的</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<script>
+	new WOW().init();
+</script>

@@ -1,0 +1,123 @@
+.details{
+	width: 750px;
+	/*border: 1px solid red;*/
+	/*padding: 0 22px;*/
+}
+
+/*d_banner样式*/
+.d_banner{
+	margin-bottom: 38px;
+	text-align: center;
+}
+.d_banner img{
+	width: 100%;
+}
+
+/*d_text样式*/
+.buy{
+	padding: 0 22px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 44px;
+}
+.buy h2{
+	font-size: 72px;
+	color: #ff9344;
+}
+.buy button{
+	background: #fff;
+}
+.buy button a{
+	display: block;
+	padding: 16px 26px;
+	background: #FF9344;
+	border-radius: 20px;
+	font-size: 30px;
+	color: #fff;
+}
+
+/*evaluate样式*/
+.evaluate{
+	width: 706px;
+	/*padding: 0 22px;*/
+	display: flex;
+	justify-content: space-between;
+	background: url('../images/details_head_03.jpg') no-repeat 22px 50%;
+}
+.evaluate p{
+	font-size: 30px;
+	line-height: 48px;
+	padding-left: 68px;
+}
+.evaluate p span{
+	color: #FF9344;
+}
+.evaluate a{
+	display: inline-block;
+	font-size: 26px;
+	color: #8e8e8e;
+	line-height: 48px;
+	float: right;
+}
+
+/*user样式*/
+.user{
+	margin-top: 38px;
+	background: #ff9344;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 22px;
+	line-height: 68px;
+}
+.user h1{
+	font-size: 30px;
+	color: #fff;
+}
+.user a{
+	font-size: 30px;
+	color: #fff;
+}
+
+/*details_list样式*/
+.details_list{
+	padding: 10px 22px 80px 22px;
+	
+}
+.details_list .list1{
+	display: flex;
+	margin-bottom: 10px;
+	/*justify-content: space-between;*/
+}
+.details_list .list1 .list1-centent{
+	padding: 0 56px 0 26px;
+}
+.details_list .list1 .list1-centent h2{
+	font-size: 30px;
+	line-height: 74px;
+}
+.details_list .list1 .list1-centent .list-img span{
+	font-size: 26px;
+	color: #929292;
+}
+.details_list .list1 .list1-centent p{
+	font-size: 24px;
+	color: #929292;
+	line-height: 58px;
+}
+.details_list .list1 .list1-centent a{
+	font-size: 20px;
+	color: red;
+}
+.details_list .list1 .button{
+	float: right;
+	margin: auto;
+}
+.details_list .list1 .button button{
+	padding: 20px 26px;
+	background: #ff9344;
+	border-radius: 26px;
+}
+.details_list .list1 .button button a{
+	font-size: 30px;
+	color: #fff;
+}

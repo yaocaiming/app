@@ -1,0 +1,118 @@
+.mine{
+	width: 750px;
+	/*border: 1px solid red;*/
+	/*padding: 0 22px;*/
+}
+
+/*Login样式*/
+.Login{
+	display: flex;
+	padding-bottom: 28px;
+}
+.Login .Login_center{
+	padding: 30px 304px 30px 28px;
+	
+}
+.Login .Login_center p{
+	font-size: 30px;
+	color: #000;
+	margin-bottom: 28px;
+}
+.Login .Login_center span{
+	font-size: 26px;
+	color: #9d9d9d;
+}
+.Login .Login_right span{
+	font-size: 86px;
+}
+
+/*critique*/
+.critique{
+	padding-bottom: 34px;
+	display: flex;
+	justify-content: space-between;
+}
+.critique div{
+	width: 196px;
+	height: 150px;
+	text-align: center;
+}
+.critique div img{
+	margin-top: 18px;
+}
+.critique div p{
+	font-size: 26px;
+}
+.critique .dianping{
+	background: #b2e0a0;
+}
+.critique .shoucang{
+	background: #a0dce0;
+}
+.critique .youhui{
+	background: #e0b7a0;
+}
+
+/*fit*/
+.fit{
+	
+}
+.fit ul li{
+	text-align: center;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.fit ul li .list-img{
+	padding-left: 96px;
+	background: url('../images/fit_03.jpg') no-repeat left 50%;
+}
+.fit ul li .text{
+	padding-right: 34px;
+	background: url('../images/more_03.jpg') no-repeat right 50%;
+}
+.fit ul li a{
+	font-size: 26px;
+	line-height: 74px;
+}
+.fit ul li .list-img1{
+	padding-left: 96px;
+	background: url('../images/dianping_03.jpg') no-repeat left 50%;
+}
+.fit ul li .list-img2{
+	padding-left: 96px;
+	background: url('../images/fit_01_03.jpg') no-repeat left 50%;
+}
+.fit ul li .list-img3{
+	padding-left: 96px;
+	background: url('../images/fit_01_07.jpg') no-repeat left 50%;
+}
+.fit ul li .list-img4{
+	padding-left: 96px;
+	background: url('../images/fit2_03.jpg') no-repeat left 50%;
+}
+.fit ul li .list-img5{
+	padding-left: 96px;
+	background: url('../images/fit2_07.jpg') no-repeat left 50%;
+}
+.fit .Ul1{
+	margin-top: 80px;
+}
+
+/*button样式*/
+.button{
+	margin-bottom: 54px;
+	padding: 0 84px;
+	display: flex;
+	justify-content: space-between;
+}
+.button button{
+	border-radius: 30px;
+	background: #ff9344;
+}
+.button button a{
+	color: #fff;
+	font-size: 24px;
+	display: inline-block;
+	padding: 28px 50px;
+}

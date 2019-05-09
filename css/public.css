@@ -1,0 +1,63 @@
+.dabox{
+	margin:0 22px;
+}
+/*header样式*/
+.header{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.header .back a{
+	width: 124px;
+	line-height: 56px;
+	border: 1px solid red;
+	display: inline-block;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 26px;
+	color: #000;
+}
+.header .centre p{
+	font-size: 26px;
+	line-height: 56px;
+}
+.header .c_list{
+	position: relative;
+}
+.header .c_list select{
+	width: 160px;
+	height: 56px;
+	border: 2px solid red;
+	font-size: 26px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.header .bg_select{
+	top: 22px;
+	left: 124px;
+	position: absolute;
+	width: 32px;
+	height: 16px;
+	background: url('../images/sanjiaoxing_03.jpg');
+}
+
+/*footer*/
+.footer{
+	position: fixed;
+	bottom: 0;
+}
+.footer ul{
+	background: rgba(255,255,255,1);
+	width: 750px;
+	display: flex;
+	justify-content: space-around;
+}
+.footer ul li{
+	text-align: center;
+}
+.footer ul li span{
+	font-size: 22px;
+	color: #000;
+	display: block;
+}

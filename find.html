@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>大康村团购APP 发现</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/find.css" />
+	<script src="js/wow.min.js"></script>
+	<meta name="viewport" content="width=750,target-densitydpi=device-dpi,maximum-scale=1.0, user-scalable=no">
+	<script type="text/javascript">
+    	function setWidth(e){
+    		if(/Andriod/i.test(navigator.userAgent))
+    		{
+    			var f,d=window.innerWidth;
+    			(d!=e)&&(f=d/e),document.addEventListener("DOMContentLoaded",function(){
+	    				var a=document.getElementsByTagName("body")[0];
+		    			a.style.webkitTransformOrigin="left top";
+		    			a.style.webkitTransform="scale("+f+")"},!1)
+    				}
+    		}
+    		setWidth(750);
+    </script>
+</head>
+<body>
+	<div class="find">
+		<div class="dabox">
+		<!--头部-->
+		<div class="header wow bounceInDown">
+			<div class="back">
+				<a href="index.html">Back</a>
+			</div>
+			<div class="centre">
+				<p>发现</p>
+			</div>
+			<div class="c_list">
+				<select name="">
+					<option value="">大康村</option>
+					<option value="">北和镇</option>
+					<option value="">英利镇</option>
+					<option value="">乌石镇</option>
+				</select>
+				<div class="bg_select"></div>
+			</div>
+		</div>
+		<div class="kind wow zoomOutDown">
+			<div class="input">
+				<input type="text" placeholder="请输入商品名称" />
+				<input type="image" src="images/sousuo_03.jpg" width="36px" height="32px" />
+			</div>
+			<p>大家都在搜</p>
+			<ul>
+				<li><a href="">寿司</a></li>
+				<li><a href="">羽毛球</a></li>
+				<li><a href="">火锅</a></li>
+				<li><a href="">游泳馆</a></li>
+			</ul>
+			<ul>
+				<li><a href="">电影</a></li>
+				<li><a href="">周黑鸭</a></li>
+				<li><a href="">KTV</a></li>
+				<li><a href="">肯德基</a></li>
+			</ul>
+		</div>
+		
+		<!--great-->
+		<div class="great wow rotateInDownLeft">
+			<div class="f_left">
+				<span>热门搜索</span>
+			</div>
+			<div class="f_right">
+				<a href="">
+					<span>更多</span>
+				</a>
+			</div>
+		</div>
+		
+		<!--g_Img-->
+		<div class="g_Img wow zoomOutDown">
+			<div class="g_Img-top">
+				<img src="images/mreat_03.jpg" alt="" />
+			</div>
+			<div class="g_Img-right">
+				<img src="images/mreat_05.jpg" alt="" />
+				<img src="images/mreat_04.jpg" alt="" />
+				<img src="images/mreat_07.jpg" alt="" />
+			</div>
+		</div>
+		
+		<!--groom-->
+		<div class="great wow fadeInLeft">
+			<div class="f_left groom">
+				<span>推荐搜索</span>
+			</div>
+			<div class="f_right">
+				<a href="">
+					<span>更多</span>
+				</a>
+			</div>
+		</div>
+		
+		<!--img-->
+		<div class="groom_img wow zoomInUp">
+			<img src="images/like_04.jpg" alt="" />
+			<img src="images/Img_04.jpg" alt="" />
+			<img src="images/Img_21.jpg" alt="" />
+		</div>
+		
+		<!--footer-->
+		<div class="footer wow slideInUp">
+			<ul>
+				<li>
+					<a href="index.html">
+						<img src="images/icon_03.jpg"/>
+						<span>首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="classify.html">
+						<img src="images/icon_05.jpg"/>
+						<span>分类</span>
+					</a>
+				</li>
+				<li>
+					<a href="find.html">
+						<img src="images/icon_07.jpg"/>
+						<span>发现</span>
+					</a>
+				</li>
+				<li>
+					<a href="mine.html">
+						<img src="images/icon_09.jpg"/>
+						<span>我的</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	new WOW().init();
+</script>
